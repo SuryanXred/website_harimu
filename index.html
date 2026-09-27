@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <title>Hari Istimewa Kamu ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="experience" id="experience">
+    <div class="sky"></div>
+    <div class="grain"></div>
+    <div class="hearts" id="hearts"></div>
+
+    <section class="screen active" data-screen="0">
+      <div class="intro">
+        <div class="tiny-label">ADA PESAN BUAT KAMU</div>
+        <h1>Hei, kamu 👀</h1>
+        <p>Ada sesuatu yang mau aku sampaikan.<br>Tenang, bukan tagihan kok 😭</p>
+        <button class="primary" id="startBtn">Buka pesan <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" data-screen="1">
+      <article class="message-card">
+        <div class="avatar-wrap"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <h2>Aku Cuma Mau<br>Bilangg Nih 🥺</h2>
+        <p>Hari ini kamu bertambah satu tahun lagi.</p>
+        <button class="next">Geser →</button>
+      </article>
+    </section>
+
+    <section class="screen" data-screen="2">
+      <article class="message-card">
+        <div class="avatar-wrap"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <h2>Ciyee yang Hari Ini<br>Ultah 🥳</h2>
+        <p>Semoga panjang umur dan sehat selalu ya.</p>
+        <button class="next">Lanjut →</button>
+      </article>
+    </section>
+
+    <section class="screen" data-screen="3">
+      <article class="message-card">
+        <div class="avatar-wrap"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <h2>Moga Panjang Umur<br>dan Sehat Selalu ya 🤍</h2>
+        <p>Semoga semua hal baik datang satu-satu ke kamu.</p>
+        <button class="next">Masih ada nih →</button>
+      </article>
+    </section>
+
+    <section class="screen" data-screen="4">
+      <article class="question-card">
+        <div class="avatar-wrap"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <h2>Mau Kado Gak Nih? 🎁</h2>
+        <p>Jangan jawab asal ya 😌</p>
+        <div class="choice-row">
+          <button class="choice yes" data-choice="yes">Mau 💛</button>
+          <button class="choice no" data-choice="no">Gamau 😝</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="screen" data-screen="5">
+      <article class="message-card small">
+        <div class="avatar-wrap"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <h2>Tapi Boong! 🤣</h2>
+        <p>Gak jadi kasih kado ah 😜💗</p>
+        <button class="next">Lanjut aja →</button>
+      </article>
+    </section>
+
+    <section class="screen final-screen" data-screen="6">
+      <div class="final-content">
+        <div class="avatar-wrap final-avatar"><img src="assets/avatar.jpg" alt="Avatar"></div>
+        <div class="final-title">Canda ya wkwk 🤣</div>
+        <p>Intinya semoga di hari bertambahnya usia kamu, kamu bisa menjadi pribadi yang lebih baik lagi dan jangan lupa bahagia.</p>
+        <p class="wish">Happy Level Up Day! 🎉</p>
+        <p class="small-note">Wish You All The Best ✨</p>
+        <button class="replay" id="replayBtn">↻ Ulangi</button>
+      </div>
+    </section>
+
+    <div class="progress" id="progress"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
